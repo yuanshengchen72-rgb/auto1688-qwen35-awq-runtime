@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "auto1688-art-runtime"
+version = "1.0.0"
+description = "Reproducible AutoDL Art runtime checks for Auto1688 Qwen3.5 AWQ inference"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+[tool.setuptools.package-data]
+auto1688_art_runtime = ["runtime_contract.json"]

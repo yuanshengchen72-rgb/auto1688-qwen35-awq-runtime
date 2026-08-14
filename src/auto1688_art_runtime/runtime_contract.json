@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "repository": "cyankiwi/Qwen3.5-35B-A3B-AWQ-4bit",
+  "model_id": "Qwen3.5-35B-A3B-AWQ-4bit",
+  "python_version": "3.12",
+  "vllm_version": "0.23.1rc1.dev1061+g36484e464",
+  "runtime_archive": {
+    "name": "qwen35-env.tar.zst",
+    "size": 3677681503
+  },
+  "files": {
+    ".gitattributes": 2583,
+    "LICENSE": 11343,
+    "README.md": 93144,
+    "chat_template.jinja": 7756,
+    "config.json": 34783,
+    "configuration.json": 76,
+    "generation_config.json": 244,
+    "merges.txt": 3353259,
+    "model-00001-of-00005.safetensors": 5374122648,
+    "model-00002-of-00005.safetensors": 5370188016,
+    "model-00003-of-00005.safetensors": 5370183944,
+    "model-00004-of-00005.safetensors": 5359586560,
+    "model-00005-of-00005.safetensors": 2980536416,
+    "model.safetensors.index.json": 10628250,
+    "preprocessor_config.json": 390,
+    "recipe.yaml": 1531,
+    "tokenizer.json": 12807982,
+    "tokenizer_config.json": 16710,
+    "video_preprocessor_config.json": 385,
+    "vocab.json": 6722759
+  }
+}
